@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
     @RequestMapping(value = "/index",method = RequestMethod.GET)
     public String helloWorld(){
-        return  "hello latsen";
+        return  "尝试部署到远程服务器。";
     }
 }
+    
