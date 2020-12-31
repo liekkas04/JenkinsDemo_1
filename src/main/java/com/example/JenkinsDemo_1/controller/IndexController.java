@@ -12,4 +12,3 @@ public class IndexController {
         return  "尝试部署到远程服务器。";
     }
 }
-    
