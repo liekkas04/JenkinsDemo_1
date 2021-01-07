@@ -8,9 +8,9 @@
 		<version>2.2.2.RELEASE</version>
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>JenkinsDemo_1</artifactId>
+	<artifactId>JenkinsDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JenkinsDemo_1</name>
+	<name>JenkinsDemo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
