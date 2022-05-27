@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'env'
+                sh 'mvn clean test package spring-boot:repackage'
             }
         }
         stage('Test') {
