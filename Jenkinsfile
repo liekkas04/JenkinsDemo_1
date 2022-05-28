@@ -27,15 +27,16 @@ pipeline {
                 subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                 body: "Something is wrong with ${env.BUILD_URL}"
         }
-        success
+        success{
          mail to: '1401734643@qq.com',
                 subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
-                body: "Something is wrong with ${env.BUILD_URL}"{}
+                body: "Something is wrong with ${env.BUILD_URL}"
+                }
         failure{
             mail to: '1401734643@qq.com',
                 subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                 body: "Something is wrong with ${env.BUILD_URL}"
                  
-        }
+                }
     }
 }
